@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=" initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Spinning Wheel</title>
+    </head>
+
+
+    <body>
+        <div id="latestPrize">
+            <p id="result">The result is in</p>
+        </div>
+        <div id="wheelO">
+            <canvas id="wheel" width="400" height="400"></canvas>
+            <div id="spin">SPIN</div>
+        </div>
+        <div id="prizeMenu">
+            <h3>ENTRIES</h3>
+            <ul id="prizes">
+            </ul>
+            <div class="add-prize">
+                <input type="text" id="new-prize" placeholder="New Prize">
+                <button id="add-prize">ENTRY</button>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
